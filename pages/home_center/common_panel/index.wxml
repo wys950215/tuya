@@ -1,0 +1,49 @@
+<!--miniprogram/pages/home_center/common_panel/index.js.wxml-->
+
+<image style="position: absolute; left: 0rpx; top: 0rpx"  class="common-panel-backgroud" src="{{forest}}" />
+
+  <navbar class="bar" device_name="卧室插座" bind:jumpTodeviceEditPage="jumpTodeviceEditPage"
+/>
+<view class='top_col' style="position: fixed; left: 0rpx; top: 387rpx">
+	<view class='top_block'>
+    <image class="top_image" src='/image/cz2.png' style="width: 237rpx; height: 235rpx; display: flex; box-sizing: border-box"></image>
+    <view class="top_content">插座状态：</view>
+  </view>
+</view>
+  <view class='center_col'  style="position: fixed; left: 102rpx; top: 186rpx; width: 629rpx; height: 202rpx; display: flex; box-sizing: border-box">
+  <view class='center_block'>
+    <view>电压：</view>
+    <view>220V</view>
+  </view>
+  <view class='center_block'>
+    <view>电流</view>
+    <view style="width: 155rpx; height: 64rpx; display: block; box-sizing: border-box">50
+      mA</view>
+	</view>
+	<view class='center_block'>
+    <view>功率</view>
+    <view style="width: 139rpx; height: 64rpx; display: block; box-sizing: border-box">5.2w</view>
+	</view>
+</view>
+
+<view class="button-sp-area"> 
+</view>
+
+<view class='bottom_col' style="position: fixed; left: 122rpx; top: 743rpx; width: 586rpx; height: 551rpx; display: flex; box-sizing: border-box">
+	<view class='bottom_block' style="width: 277rpx; height: 270rpx; display: flex; box-sizing: border-box; position: relative; left: 397rpx; top: 270rpx">
+    <image class="bottom_image" src='/image/kg2.png'  style="width: 115rpx; height: 104rpx; display: flex; box-sizing: border-box; position: relative; left: 0rpx; top: -8rpx"></image>
+    <view style="margin-top:30px;"> <button bindtap="openclick"type="primary" size="default" style="width: 216rpx; height: 99rpx; display: block; box-sizing: border-box; position: relative; left: 8rpx; top: -45rpx" >ON/OFF</button>   </view>
+	</view>
+	<view class='bottom_block' style="width: 216rpx; height: 270rpx; display: flex; box-sizing: border-box; position: relative; left: 181rpx; top: 0rpx">
+		<image class="bottom_image" src='/image/djs2.png' style="width: 122rpx; height: 521rpx; display: flex; box-sizing: border-box; position: relative; left: 5rpx; top: 5rpx"></image>
+		<view style="margin-top: 30px; width: 101rpx; height: 279rpx; display: block; box-sizing: border-box"> <button bindtap="openclick"type="primary" size="default" style="width: 195rpx; height: 99rpx; display: block; box-sizing: border-box; position: relative; left: -38rpx; top: -40rpx" >倒计时</button>   </view>
+	</view>
+	<view class='bottom_block' style="position: relative; left: -310rpx; top: 0rpx; width: 190rpx; height: 270rpx; display: flex; box-sizing: border-box">
+		<image class="bottom_image" src='/image/ds2.png' style="width: 101rpx; height: 113rpx; display: flex; box-sizing: border-box"></image>
+    <view style="margin-top:30px;"> <button bindtap="openclick"type="primary" size="default" style="width: 183rpx; height: 101rpx; display: block; box-sizing: border-box; position: relative; left: -3rpx; top: -33rpx" >计时</button>   </view>
+  </view>
+  <view class='bottom_block' style="width: 169rpx; height: 270rpx; display: flex; box-sizing: border-box">
+		<image class="bottom_image" src='/image/dl2.png' style="width: 122rpx; height: 104rpx; display: flex; box-sizing: border-box; position: relative; left: -516rpx; top: 270rpx"></image>
+    <view style="margin-top: 30px; width: 155rpx; height: 104rpx; display: block; box-sizing: border-box"> <button bindtap="openclick"type="primary" size="default" style="width: 160rpx; height: 104rpx; display: block; box-sizing: border-box; position: relative; left: -533rpx; top: 225rpx" >电量</button>   </view>
+	</view>
+</view>

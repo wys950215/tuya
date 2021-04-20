@@ -1,0 +1,97 @@
+/* miniprogram/pages/home_center/common_panel/index.js.wxss */
+
+.common-panel-backgroud {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+	height: 100%;
+	background-color:rgb(40, 61, 57);
+}
+
+
+
+/*添加*/
+/*顶部 大图标*/
+.top_col {
+  overflow: hidden;
+  margin-bottom: 0;
+  width: 100%;
+  position: fixed;
+  top: 100px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.top_image {
+  display: flex;
+  top: 102px;
+  width: 400rpx;
+  height: 400rpx;
+  justify-content: center;
+  
+}
+
+.top_content{
+  display: flex;
+  color: #1a74fa;
+  font-size:50rpx;
+  justify-content: center;
+  
+}
+
+/*中间 电压 电流 功率 */
+.center_col {
+  overflow: hidden;
+  position: fixed;
+  left:130rpx;
+  right:130rpx;
+
+  top: 850rpx;
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+
+.center_block {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin-left: 25rpx;
+  margin-right: 25rpx;
+  justify-content: center;
+  font-size:20px;
+  color: #1aa0fa;
+  
+}
+
+/* 底部 按钮 */
+.bottom_col {
+   overflow: hidden;
+  margin-bottom: 0;
+  width: 100%;
+  position: fixed;
+  bottom: 90rpx;
+  display: flex;
+  justify-content: center; 
+}
+
+.bottom_block {
+  display: flex;
+  flex-direction: column;
+  width: 130rpx;
+  align-items: center;
+  margin-left: 25rpx;
+  margin-right: 25rpx;
+  color: #1afa29;
+  font-size:20px;
+}
+
+.bottom_image {
+  display: flex;
+  width: 80rpx;
+  height: 80rpx;
+}
